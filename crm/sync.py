@@ -1,4 +1,5 @@
-"""Synchronization jobs for CRM data."""
+"""Scheduling helpers for automated synchronisation tasks."""
+
 from __future__ import annotations
 
 from datetime import datetime

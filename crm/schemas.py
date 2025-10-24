@@ -1,4 +1,4 @@
-"""Pydantic schemas for requests and responses."""
+"""Pydantic models that shape the public API of the CRM service."""
 from __future__ import annotations
 
 from datetime import date, datetime
