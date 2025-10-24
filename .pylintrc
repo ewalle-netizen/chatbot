@@ -1,0 +1,28 @@
+[MASTER]
+ignore=.venv
+
+[MESSAGES CONTROL]
+disable=
+    missing-class-docstring,
+    missing-function-docstring,
+    missing-module-docstring,
+    too-many-arguments,
+    too-many-instance-attributes,
+    too-few-public-methods,
+    broad-except
+
+[TYPECHECK]
+ignored-modules=
+    fastapi,
+    fastapi.middleware.cors,
+    uvicorn,
+    sqlalchemy,
+    sqlalchemy.orm,
+    sqlalchemy.ext.declarative,
+    sqlalchemy.dialects.postgresql,
+    pydantic,
+    apscheduler,
+    apscheduler.schedulers.background,
+    requests,
+    streamlit,
+    openai
